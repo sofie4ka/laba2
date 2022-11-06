@@ -1,0 +1,105 @@
+aside{
+    border: 8px solid rgba(255, 0, 24, 0.61); /* Рамка навколо зображення */
+    padding: 15px; /* Відстань від картинки до рамки */
+    margin-right: 10px; /* Відступ зправа */
+    margin-bottom: 10px; /* Відступ знизу */
+    text-align: left;
+    float: left;
+    margin-top: 420px;
+}
+aside a:hover{
+    color: #bb3d3d;
+}
+aside a{
+    text-decoration:none;
+    color: black;
+    font-family: "Apple Braille";
+    font-size: 30px;
+}
+aside ul{
+    list-style-type: none;
+    display: inline;
+    margin-right: 50px;
+    padding: 3px;
+}
+header dd{
+    list-style-type: none;
+    display: inline;
+    margin-right: 50px;
+    padding: 3px;
+}
+menu dl{
+    list-style-type: none;
+    display: inline;
+    margin-right: 50px;
+    padding: 3px;
+}
+dl.hr{
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+    display: flex;
+}
+dl.hr dd {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    padding: 3px; /* Поля вокруг текста */
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 15px;
+}
+
+dl a{
+    text-decoration:none;
+}
+main img{
+    height:400px;
+    width: 330px;
+    margin: 50px;
+    box-shadow: 10px 10px #2a832a;
+    border-radius: 13px;
+}
+main{
+    text-align: center;
+}
+main img:hover{
+    transform: scale(1.21);
+}
+
+footer li{
+    list-style-type: none;
+    margin-right: 50px;
+    padding: 3px;
+}
+footer ul{
+    text-align: center;
+    padding: 3px;
+}
+.footer{
+    text-align: center;
+    background-color: rgba(42, 131, 42, 0.84);
+}
+.ul{
+    display: inline-flex;
+}
+footer a{
+    text-decoration:none;
+    color: rgba(3, 54, 3, 0.84);
+    font-size: 20px;
+    font-family: "Apple Braille";
+}
+footer dd{
+    list-style-type: none;
+    display: inline;
+    margin-right: 50px;
+    padding: 3px;
+}
+footer img{
+    height:100px;
+    width: 100px;
+    margin: 20px;
+    box-shadow: 10px 10px #2a832a;
+    border-radius: 13px;
+}
